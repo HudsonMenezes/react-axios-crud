@@ -6,7 +6,7 @@ import {createBrowserRouter, RouterProvider, Route} from 'react-router-dom'
 
 //Páginas
 import Home from './routes/Home'
-import New from './routes/New'
+import NewPost from './routes/NewPost'
 
 import './index.css'
 
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/new",
-        element: <New />
+        path: "/newpost",
+        element: <NewPost />
       }
     ]
   }
